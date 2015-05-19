@@ -23,9 +23,9 @@
           String sql = " UPDATE REVIEW SET RATE = "+ newRate +"  WHERE ID =  "+ id +"" ;
           
           String DBDRIVER = "oracle.jdbc.driver.OracleDriver";
-          String DBURL = "jdbc:oracle:thin:@fourier.cs.iit.edu:1521:orcl";
-          String DBNAME = "xhou3";
-          String DBPASS = "walc0727";
+          String DBURL = "jdbc:oracle:thin:@xxx:1521:orcl";
+          String DBNAME = "...";
+          String DBPASS = "...";
           Connection conn = null;
           Class.forName(DBDRIVER);
           conn = DriverManager.getConnection(DBURL,DBNAME,DBPASS);

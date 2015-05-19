@@ -12,9 +12,9 @@
   
   <%!
 String DBDRIVER = "oracle.jdbc.driver.OracleDriver";
-String DBURL = "jdbc:oracle:thin:@fourier.cs.iit.edu:1521:orcl";
-String DBNAME = "xhou3";
-String DBPASS = "walc0727";
+String DBURL = "jdbc:oracle:thin:@xxx:1521:orcl";
+String DBNAME = "...";
+String DBPASS = "...";
 Connection conn = null;
 PreparedStatement pstmt = null;
 ResultSet rs = null;
